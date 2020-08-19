@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{23b26048-487e-4a64-968f-fcdfb7b79930}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameState">
+      <UniqueIdentifier>{a72a500f-8170-428d-a15d-d95c2e0f73d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ResourceManager">
+      <UniqueIdentifier>{554cd8cc-bea6-4391-a853-849d4ddcbd00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameState\Playground">
+      <UniqueIdentifier>{08dc98f8-a6d9-49a9-8d17-714dab294f63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game\Time">
+      <UniqueIdentifier>{f563a422-f289-4025-be1b-4254477328f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Debug">
+      <UniqueIdentifier>{0bc0514b-b2b1-4a09-a678-4f2d969826c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{a1ea222a-1b5e-49fb-bb2f-52150cb96977}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject">
+      <UniqueIdentifier>{26eb9a51-5aaa-4a97-b318-36249195b266}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ResourceManager\TextureManager">
+      <UniqueIdentifier>{b6a04ec6-b0a2-4ee8-872f-752872f56832}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameObject\Entities">
+      <UniqueIdentifier>{0eb92942-6b7c-44b6-be52-c9d38f29df35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Animations">
+      <UniqueIdentifier>{d516294b-bfd5-4501-902e-659e0282175c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers">
+      <UniqueIdentifier>{fca6c6ce-b89e-4e46-abed-00b362186250}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Game.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="GameState.cpp">
+      <Filter>GameState</Filter>
+    </ClCompile>
+    <ClCompile Include="PlaygroundState.cpp">
+      <Filter>GameState\Playground</Filter>
+    </ClCompile>
+    <ClCompile Include="Time.cpp">
+      <Filter>Game\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureManager.cpp">
+      <Filter>ResourceManager\TextureManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>Animations</Filter>
+    </ClCompile>
+    <ClCompile Include="Animator.cpp">
+      <Filter>Animations</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>GameObject\Entities</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Game.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameState.h">
+      <Filter>GameState</Filter>
+    </ClInclude>
+    <ClInclude Include="PlaygroundState.h">
+      <Filter>GameState\Playground</Filter>
+    </ClInclude>
+    <ClInclude Include="Time.h">
+      <Filter>Game\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug.h">
+      <Filter>Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureManager.h">
+      <Filter>ResourceManager\TextureManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>Animations</Filter>
+    </ClInclude>
+    <ClInclude Include="Animator.h">
+      <Filter>Animations</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>GameObject\Entities</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
